@@ -33,7 +33,7 @@ class NetworkNode(models.Model):
         return f'{self.name}, {self.email}, {self.country}'
 
     def save(self, *args, **kwargs):
-        """Переопределение метода для автоматической привязки уровня иерархии звена."""
+        """Переопределение метода для автоматической установки уровня иерархии звена."""
         if self.supplier:
             # Если у поставщика объекта уровень 2, то уровень сохраняется и для текущего звена (max level)
             if self.supplier.level == 2:
