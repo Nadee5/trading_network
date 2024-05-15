@@ -1,0 +1,327 @@
+[
+  {
+    "model": "network.networknode",
+    "pk": 1,
+    "fields": {
+      "name": "АО \"Завод\"",
+      "email": "zavod@gmail.com",
+      "country": "Россия",
+      "city": "Москва",
+      "street": "Большая Новодмитровская",
+      "house_number": "23",
+      "supplier": null,
+      "level": 0,
+      "debt": "0.00",
+      "created_at": "2024-05-10T14:04:35.705Z",
+      "products": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "model": "network.networknode",
+    "pk": 2,
+    "fields": {
+      "name": "Первая Компания",
+      "email": "first_retail@gmail.com",
+      "country": "Россия",
+      "city": "Мытищи",
+      "street": "Шараповский проезд",
+      "house_number": "2",
+      "supplier": 1,
+      "level": 1,
+      "debt": "0.00",
+      "created_at": "2024-05-10T14:18:05.244Z",
+      "products": [
+        1
+      ]
+    }
+  },
+  {
+    "model": "network.networknode",
+    "pk": 3,
+    "fields": {
+      "name": "Вторая Компания",
+      "email": "second_retail@gmail.com",
+      "country": "Россия",
+      "city": "Пушкино",
+      "street": "Красноармейское шоссе",
+      "house_number": "104",
+      "supplier": 1,
+      "level": 1,
+      "debt": "0.00",
+      "created_at": "2024-05-10T14:31:27.299Z",
+      "products": [
+        2
+      ]
+    }
+  },
+  {
+    "model": "network.networknode",
+    "pk": 4,
+    "fields": {
+      "name": "Третья Компания",
+      "email": "first_ip@gmail.com",
+      "country": "Россия",
+      "city": "Москва",
+      "street": "Садовая-Спасская",
+      "house_number": "3",
+      "supplier": 2,
+      "level": 2,
+      "debt": "0.00",
+      "created_at": "2024-05-10T16:40:53.659Z",
+      "products": [
+        2
+      ]
+    }
+  },
+  {
+    "model": "network.networknode",
+    "pk": 5,
+    "fields": {
+      "name": "Четвертая Компания",
+      "email": "second_ip@gmail.com",
+      "country": "Россия",
+      "city": "Сергиев Посад",
+      "street": "Проспект Красной Армии",
+      "house_number": "121",
+      "supplier": 3,
+      "level": 2,
+      "debt": "0.00",
+      "created_at": "2024-05-10T16:54:51.828Z",
+      "products": [
+        1
+      ]
+    }
+  },
+  {
+    "model": "network.networknode",
+    "pk": 6,
+    "fields": {
+      "name": "Пятая Компания",
+      "email": "third_retail@gmail.com",
+      "country": "Россия",
+      "city": "Красногорск",
+      "street": "Ленина",
+      "house_number": "35А",
+      "supplier": 3,
+      "level": 2,
+      "debt": "300000.00",
+      "created_at": "2024-05-10T17:08:48.487Z",
+      "products": [
+        1
+      ]
+    }
+  },
+  {
+    "model": "network.networknode",
+    "pk": 7,
+    "fields": {
+      "name": "Шестая Компания",
+      "email": "fourth_retail@gmail.com",
+      "country": "Россия",
+      "city": "Химки",
+      "street": "Ленинградское шоссе",
+      "house_number": "вл5",
+      "supplier": 1,
+      "level": 1,
+      "debt": "0.00",
+      "created_at": "2024-05-10T17:30:45.856Z",
+      "products": [
+        1
+      ]
+    }
+  },
+  {
+    "model": "network.networknode",
+    "pk": 8,
+    "fields": {
+      "name": "Седьмая Компания",
+      "email": "third_ip@gmail.com",
+      "country": "Россия",
+      "city": "Зеленоград",
+      "street": "Панфиловский проспект",
+      "house_number": "6А",
+      "supplier": 1,
+      "level": 1,
+      "debt": "500000.50",
+      "created_at": "2024-05-10T17:36:41.181Z",
+      "products": [
+        1
+      ]
+    }
+  },
+  {
+    "model": "network.networknode",
+    "pk": 9,
+    "fields": {
+      "name": "Восьмая Компания",
+      "email": "new_comp@gmail.com",
+      "country": "Россия",
+      "city": "Пересвет",
+      "street": "Пионерская",
+      "house_number": "12",
+      "supplier": 1,
+      "level": 1,
+      "debt": "10000.00",
+      "created_at": "2024-05-10T17:45:20.088Z",
+      "products": [
+        1
+      ]
+    }
+  },
+  {
+    "model": "network.networknode",
+    "pk": 10,
+    "fields": {
+      "name": "Девятая Компания",
+      "email": "more_one@gmail.com",
+      "country": "Россия",
+      "city": "Москва",
+      "street": "Ленинградский проспект",
+      "house_number": "36",
+      "supplier": 2,
+      "level": 2,
+      "debt": "0.00",
+      "created_at": "2024-05-10T18:07:54.733Z",
+      "products": [
+        1
+      ]
+    }
+  },
+  {
+    "model": "network.networknode",
+    "pk": 11,
+    "fields": {
+      "name": "Десятая Компания",
+      "email": "lala@mail.ru",
+      "country": "Россия",
+      "city": "Пересвет",
+      "street": "Большая Новодмитровская",
+      "house_number": "132",
+      "supplier": 10,
+      "level": 2,
+      "debt": "302564.00",
+      "created_at": "2024-05-10T18:31:08.374Z",
+      "products": [
+        1
+      ]
+    }
+  },
+  {
+    "model": "network.networknode",
+    "pk": 12,
+    "fields": {
+      "name": "Одиннадцатая Компания",
+      "email": "test@mail.ru",
+      "country": "Россия",
+      "city": "Пересвет",
+      "street": "Красноармейское шоссе",
+      "house_number": "3514",
+      "supplier": 1,
+      "level": 1,
+      "debt": "0.00",
+      "created_at": "2024-05-10T18:31:39.444Z",
+      "products": [
+        2
+      ]
+    }
+  },
+  {
+    "model": "network.networknode",
+    "pk": 13,
+    "fields": {
+      "name": "Двенадцатая Компания",
+      "email": "test1@mail.ru",
+      "country": "Россия",
+      "city": "Пересвет",
+      "street": "Шараповский проезд",
+      "house_number": "104",
+      "supplier": 2,
+      "level": 2,
+      "debt": "0.00",
+      "created_at": "2024-05-10T18:33:23.682Z",
+      "products": [
+        2
+      ]
+    }
+  },
+  {
+    "model": "network.networknode",
+    "pk": 14,
+    "fields": {
+      "name": "Первая Апи-Компания",
+      "email": "apiapi@gmail.com",
+      "country": "Россия",
+      "city": "Балашиха",
+      "street": "Энтузиастов шоссе",
+      "house_number": "36А",
+      "supplier": 4,
+      "level": 2,
+      "debt": "0.00",
+      "created_at": "2024-05-11T11:40:45.557Z",
+      "products": [
+        2
+      ]
+    }
+  },
+  {
+    "model": "network.networknode",
+    "pk": 15,
+    "fields": {
+      "name": "Вторая Апи-Компания",
+      "email": "lala12@mail.ru",
+      "country": "Россия",
+      "city": "Москва",
+      "street": "Зеленодольская",
+      "house_number": "40",
+      "supplier": 14,
+      "level": 2,
+      "debt": "0.00",
+      "created_at": "2024-05-13T10:59:31.742Z",
+      "products": [
+        1
+      ]
+    }
+  },
+  {
+    "model": "network.networknode",
+    "pk": 16,
+    "fields": {
+      "name": "Третья Апи-Компания",
+      "email": "lala123@mail.ru",
+      "country": "Россия",
+      "city": "Москва",
+      "street": "Рязанский проспект",
+      "house_number": "2",
+      "supplier": 1,
+      "level": 1,
+      "debt": "1000000.00",
+      "created_at": "2024-05-13T11:06:28.286Z",
+      "products": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "model": "network.networknode",
+    "pk": 17,
+    "fields": {
+      "name": "Четвертая Апи-Компания",
+      "email": "test777@mail.ru",
+      "country": "Россия",
+      "city": "Москва",
+      "street": "Земляной Вал",
+      "house_number": "33",
+      "supplier": 1,
+      "level": 1,
+      "debt": "50000.00",
+      "created_at": "2024-05-13T11:10:13.998Z",
+      "products": [
+        2
+      ]
+    }
+  }
+]
