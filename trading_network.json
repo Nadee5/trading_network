@@ -715,6 +715,97 @@
     }
   },
   {
+    "model": "admin.logentry",
+    "pk": 56,
+    "fields": {
+      "action_time": "2024-05-15T09:42:10.252Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "2",
+      "object_repr": "employee1",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 57,
+    "fields": {
+      "action_time": "2024-05-15T09:42:32.828Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "2",
+      "object_repr": "employee1",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 58,
+    "fields": {
+      "action_time": "2024-05-15T09:47:24.041Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "2",
+      "object_repr": "employee1",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Staff status\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 59,
+    "fields": {
+      "action_time": "2024-05-15T09:52:09.190Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "3",
+      "object_repr": "employee2",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 60,
+    "fields": {
+      "action_time": "2024-05-15T09:52:16.342Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "3",
+      "object_repr": "employee2",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Staff status\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 61,
+    "fields": {
+      "action_time": "2024-05-15T09:54:17.421Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "3",
+      "object_repr": "employee2",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"User permissions\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 62,
+    "fields": {
+      "action_time": "2024-05-15T09:55:19.862Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "3",
+      "object_repr": "employee2",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"User permissions\"]}}]"
+    }
+  },
+  {
     "model": "auth.permission",
     "pk": 1,
     "fields": {
@@ -1007,7 +1098,7 @@
     "pk": 1,
     "fields": {
       "password": "pbkdf2_sha256$720000$a6HtFDjyRFz8DqPb3HBvr6$DjN0q9cuXMxHq3rV0WH6neJOJpUAd6VLDUzknWNvuoc=",
-      "last_login": "2024-05-10T13:39:37.946Z",
+      "last_login": "2024-05-15T09:55:10.402Z",
       "is_superuser": true,
       "username": "admin",
       "first_name": "",
@@ -1016,6 +1107,42 @@
       "is_staff": true,
       "is_active": true,
       "date_joined": "2024-05-10T13:38:22.734Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 2,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$xk0RuzRSIRsgzeY1oMBGhG$8uB8bFv+c0B4q45cxrat6a6a3LB/WjzdBcyzfJGUBBQ=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "employee1",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2024-05-15T09:42:09Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 3,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$5DXsHMF2nWOE98RR8dgDLS$6SbQTcsDKt9vPCmdMNFeT/lH+P1297EW3vjVnYC1W4E=",
+      "last_login": "2024-05-15T09:55:43.431Z",
+      "is_superuser": false,
+      "username": "employee2",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2024-05-15T09:52:08Z",
       "groups": [],
       "user_permissions": []
     }
@@ -1086,10 +1213,10 @@
   },
   {
     "model": "sessions.session",
-    "pk": "z1ab8xs42yn0xwg578h7myr9i9d2e0hg",
+    "pk": "nl9rh1jnyujg83puyypzb8nrnw5gqi90",
     "fields": {
-      "session_data": ".eJxVjEEOwiAQRe_C2pBCmQFduu8ZyDAMUjVtUtqV8e7apAvd_vfef6lI21rj1mSJY1YXZdTpd0vED5l2kO803WbN87QuY9K7og_a9DBneV4P9--gUqvfmoERHRNgsSwcCHt37k1gtC6JhICQvAXxKQU0RFxcX6AD8OKlI6veH-1POAw:1s5QTJ:9rkY-O3NzP7OOYD9PHufNgxLXEme-3YSodtMw5q0Gew",
-      "expire_date": "2024-05-24T13:39:37.948Z"
+      "session_data": ".eJxVjMsOwiAUBf-FtSFAqXhduu83kPuKVA1NSrsy_rsh6UK3Z2bO22Tct5L3pmuexVzNYE6_GyE_tXYgD6z3xfJSt3Um2xV70GanRfR1O9y_g4Kt9BrJDTwG4ngO4hIqAQooRRpFWATVsTgPFDGFAZ2CXkLyPgIwaDKfLyKxORI:1s7BMN:XDxjFjo3qDBahsKUEn7Xpsvzh_26my1xmYc44z-gOaI",
+      "expire_date": "2024-05-29T09:55:43.432Z"
     }
   },
   {
@@ -1179,7 +1306,7 @@
       "city": "Сергиев Посад",
       "street": "Проспект Красной Армии",
       "house_number": "121",
-      "supplier": 2,
+      "supplier": 3,
       "level": 2,
       "debt": "0.00",
       "created_at": "2024-05-10T16:54:51.828Z",
