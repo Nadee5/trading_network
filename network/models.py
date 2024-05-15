@@ -36,9 +36,9 @@ class NetworkNode(models.Model):
         """Переопределение метода для автоматической установки уровня иерархии звена."""
         if self.supplier:
             # Если у поставщика объекта уровень 2, то уровень сохраняется и для текущего звена (max level)
-            if self.supplier.level == 2:
-                self.level = 2
-            self.level = self.supplier.level + 1
+            if self.supplier.level != 2:
+                self.level = self.supplier.level + 1
+            self.level = 2
         else:
             # Если у объекта нет поставщика, он считается заводом (уровень 0)
             self.level = 0

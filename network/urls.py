@@ -8,7 +8,7 @@ from network.views import NetworkNodeViewSet
 app_name = NetworkConfig.name
 
 router = DefaultRouter()
-router.register(r'network_nodes', NetworkNodeViewSet, basename='network_nodes')
+router.register(r'', NetworkNodeViewSet, basename='network_nodes')
 
 urlpatterns = [
     path('', include(router.urls))
