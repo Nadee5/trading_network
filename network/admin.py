@@ -7,6 +7,7 @@ from network.models import NetworkNode
 
 @admin.register(NetworkNode)
 class NetworkNodeAdmin(admin.ModelAdmin):
+    """Административная панель для модели NetworkNode."""
     exclude = ('level',)
     list_display = ('pk', 'name', 'city', 'level', 'supplier', 'supplier_link', 'debt',)
     list_filter = ('city', 'level',)
@@ -20,6 +21,9 @@ class NetworkNodeAdmin(admin.ModelAdmin):
         if obj.supplier:
             url = reverse('admin:network_networknode_change', args=[obj.supplier.id])
             link = '<a href="{}">Поставщик</a>'.format(url)
+            # Для разрешения использования HTML-тегов в строке link.
+            # Обеспечивает безопасное отображение HTML в административной панели Django.
+            #
             return mark_safe(link)
         return 'Нет поставщика'
     supplier_link.short_description = 'Карточка поставщика'
